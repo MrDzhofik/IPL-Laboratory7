@@ -30,6 +30,7 @@ class Files
   end
 
   def get
+    p 'Second file:'
     @en
   end
 end
