@@ -3,8 +3,8 @@
 # Create and write
 class Files
   def initialize(arr)
-    @name = 'numbers.txt'
-    @second = 'modified.txt'
+    @name = '/home/mrdzhofik/User/Dzhafarov/3 semester/IPL/Lab work/IPL-Laboratory7/Part_1/numbers.txt'
+    @second = '/home/mrdzhofik/User/Dzhafarov/3 semester/IPL/Lab work/IPL-Laboratory7/Part_1/modified.txt'
     @file = File.new(@name, 'w')
     @file.syswrite(arr)
   end
